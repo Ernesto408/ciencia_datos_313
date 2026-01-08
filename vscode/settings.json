@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "/home/ernestor/ciencia_datos_313/env313/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true
+}
