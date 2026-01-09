@@ -186,7 +186,7 @@ print(f"Presión Arterial (kPa): {presiones_kpa}")  # kPa = mmHg * 0.133322
 
 # 6. Encuentra la presión más cercana a 130
 print("\n6. Presión cercana a 130")
-presiones_130 = presiones_array[presiones_array < 130]
+presiones_130 = presiones_array[presiones_array <= 130]
 print(f"    Presión: {np.max(presiones_130)} mmHg")
 
 
