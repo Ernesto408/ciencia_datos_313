@@ -4,9 +4,9 @@ venv/
 .env
 
 # Datos grandes (no subir datasets)
-data/*.csv
-data/*.xlsx
-data/*.json
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.json
 
 # Pero SÍ queremos la estructura de carpetas data/
 !data/
