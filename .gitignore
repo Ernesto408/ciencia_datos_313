@@ -7,6 +7,7 @@ venv/
 data/*.csv
 data/*.xlsx
 data/*.json
+
 # Pero SÍ queremos la estructura de carpetas data/
 !data/
 !data/raw/
@@ -48,18 +49,28 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Jupyter
-.jupyter/
-*.ipynb
-
 # Logs
 *.log
 
-# Archivos temporales
-*.tmp
+# Archivos temporales*.tmp
 *.temp
 
 # Configuraciones personales
 .secret
 config.ini
 credentials.json
+
+# Formatos grandes/paralelos comunes
+*.parquet
+*.parquet.gz
+*.feather
+*.hdf5
+*.h5
+
+# Modelos grandes (si usas machine learning)
+models/*.pkl
+models/*.joblib
+
+# Resultados de experimentos
+mlruns/
+experiments/temp/
