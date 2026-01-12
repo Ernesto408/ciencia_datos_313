@@ -83,3 +83,4 @@ data/temp/*.png
 # Archivos temporales de Python
 __pycache__/
 *.pyc
+README_backup.md
