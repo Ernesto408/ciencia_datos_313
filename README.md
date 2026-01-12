@@ -63,24 +63,24 @@ ciencia_datos_313/
 - Ejercicio práctico: Análisis de ventas
 - **Nota:** Código futuro-compatible (sin warnings)
 
-### 🔄 **Módulo 4: En Progreso - Visualización de Datos**
-- Gráficos con Matplotlib (líneas, barras, dispersión)
-- Personalización de gráficos
-- Visualización con Pandas integrado
-- Seaborn para gráficos estadísticos
+## 📊 Módulo 4: Visualización de Datos con Matplotlib
 
-## 🛠️ Configuración del Entorno
+**Estado:** ✅ Completado  
+**Fecha:** Enero 2025
 
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/Ernesto408/ciencia_datos_313.git
-cd ciencia_datos_313
+### Contenido:
+- Fundamentos de Matplotlib (figuras, ejes, personalización)
+- Tipos de gráficos: línea, barras, dispersión, histograma
+- Subplots y dashboards
+- Integración con Pandas DataFrames
+- Ejercicio práctico: Análisis climático de España
 
-# 2. Crear y activar entorno virtual (si no existe)
-python -m venv env313
-source env313/bin/activate  # Linux/Mac
-# env313\Scripts\activate   # Windows
+### Archivos principales:
+- `scripts/modulo_4/01_introduccion_matplotlib.py`
 
-# 3. Instalar dependencias básicas
-pip install numpy pandas matplotlib jupyter
+### Resultados:
+- Dashboard climático completo (4 ciudades españolas)
+- Visualización profesional con paleta de colores consistente
+
+![Dashboard Climático](data/temp/dashboard_climatico_real.png)
 
