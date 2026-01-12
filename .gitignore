@@ -74,3 +74,12 @@ models/*.joblib
 # Resultados de experimentos
 mlruns/
 experiments/temp/
+
+# Resultados de Matplotlib (excepto los importantes)
+data/temp/*.png
+!data/temp/dashboard_climatico_real.png
+!data/temp/datos_españa.csv
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
