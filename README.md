@@ -22,10 +22,10 @@ Repositorio estructurado para el aprendizaje práctico de ciencia de datos, desd
 | **2** | NumPy para Computación Numérica | `01_intro_numpy.py`<br>`02_arrays_multidimencionales.py` | ✅ |
 | **3** | Pandas para Análisis de Datos | `01_introduccion_pandas.py` | ✅ |
 | **4** | Visualización con Matplotlib & Seaborn | `01_introduccion_matplotlib.py`<br>`02_visualizacion_avanzada.py` | ✅ |
-| **5** | Análisis Estadístico Avanzado | `01_estadistica_desciptiva_avanzada.py` | ✅ |
+| **5** | Análisis Estadístico Avanzado | `01_estadistica_descriptiva_avanzada.py` | ✅ |
 
 ### 🚧 **Módulos Pendientes**
-- **Módulo 5:** Análisis Estadístico Avanzado
+- **Módulo 5:** Análisis Estadístico Avanzado (en Desarrollo)
 - **Módulo 6:** Introducción a Machine Learning
 - **Módulo 7:** Visualización Interactiva (Plotly)
 - **Módulo 8:** Proyecto Integrador
