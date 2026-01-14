@@ -22,6 +22,7 @@ Repositorio estructurado para el aprendizaje práctico de ciencia de datos, desd
 | **2** | NumPy para Computación Numérica | `01_intro_numpy.py`<br>`02_arrays_multidimencionales.py` | ✅ |
 | **3** | Pandas para Análisis de Datos | `01_introduccion_pandas.py` | ✅ |
 | **4** | Visualización con Matplotlib & Seaborn | `01_introduccion_matplotlib.py`<br>`02_visualizacion_avanzada.py` | ✅ |
+| **5** | Análisis Estadístico Avanzado | `01_estadistica_desciptiva_avanzada.py` | ✅ |
 
 ### 🚧 **Módulos Pendientes**
 - **Módulo 5:** Análisis Estadístico Avanzado
@@ -41,6 +42,8 @@ ciencia_datos_313/
 │   ├── modulo_4/           # Visualización (Matplotlib & Seaborn) ✅
 │   │   ├── 01_introduccion_matplotlib.py
 │   │   └── 02_visualizacion_avanzada.py
+│   ├── modulo_5/           # Análisis Estadístico Avanzado
+│   │   ├── 01_estadistica_descriptiva_avanzada.py
 │   ├── ejercicios/         # Prácticas adicionales
 │   └── proyectos/          # Proyectos integradores
 ├── utils/                  # ✨ NUEVO: Utilidades personalizadas
@@ -54,6 +57,7 @@ ciencia_datos_313/
 │   ├── visualizations/    # ✨ NUEVO: Gráficos organizados
 │   │   ├── dashboard_climatico_real.png
 │   │   ├── modulo_4/           # Gráficos del módulo 4
+│   │   ├── modulo_5/           # Gráficos del módulo 5
 │   │   └── anteriores/         # Gráficos históricos
 │   ├── raw/              # Datos originales
 │   ├── processed/        # Datos procesados
@@ -92,6 +96,35 @@ ciencia_datos_313/
 - `data/visualizations/modulo_4/comparacion_matplotlib_vs_seaborn.png`
 - `data/visualizations/modulo_4/precipitacion_matplotlib_vs_seaborn.png`
 
+---
+
+## 📐 **Módulo 5: Análisis Estadístico Avanzado - En Desarrollo**
+
+### 🎯 Objetivos del Módulo:
+- Dominar estadística descriptiva avanzada para ciencia de datos
+- Aprender a calcular e interpretar medidas de tendencia central, dispersión y forma
+- Realizar análisis exploratorio de datos (EDA) profesional
+- Crear visualizaciones estadísticas avanzadas con Seaborn
+
+### 📊 Contenido Actual:
+- **`01_estadistica_descriptiva_avanzada.py`**: Análisis completo de datos climáticos españoles
+  - Medidas de tendencia central (media, mediana, moda)
+  - Medidas de dispersión (varianza, desviación estándar, coeficiente de variación)
+  - Medidas de forma (asimetría, curtosis)
+  - Percentiles, cuartiles y detección de outliers
+  - Visualizaciones: histogramas con KDE, boxplots comparativos
+
+### 🔧 Tecnologías Aplicadas:
+- **Pandas & NumPy**: Cálculos estadísticos avanzados
+- **SciPy**: Funciones estadísticas especializadas (skew, kurtosis)
+- **Seaborn**: Visualización estadística profesional
+- **Matplotlib**: Personalización de gráficos
+
+### 📈 Próximos Pasos en el Módulo:
+1. Pruebas de hipótesis (t-test, ANOVA)
+2. Análisis de correlación y regresión lineal
+3. Distribuciones de probabilidad (normal, binomial)
+4. Series temporales y análisis de tendencias
 ---
 
 ## 🛠️ Tecnologías Utilizadas
