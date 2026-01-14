@@ -97,3 +97,7 @@ data/visualizations/**/*.png
 *~
 *.tmp
 *.temp
+
+# Archivos de backup personales
+*.backup
+*.bak
