@@ -90,3 +90,10 @@ data/visualizations/**/*.png
 !data/visualizations/dashboard_climatico_real.png
 !data/visualizations/modulo_4/comparacion_matplotlib_vs_seaborn.png
 !data/visualizations/modulo_4/precipitacion_matplotlib_vs_seaborn.png
+
+# Archivos de backup personales
+*.backup
+*.bak
+*~
+*.tmp
+*.temp
