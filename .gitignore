@@ -84,3 +84,9 @@ data/temp/*.png
 __pycache__/
 *.pyc
 README_backup.md
+# Gráficos de visualizaciones (no subir binarios grandes)
+data/visualizations/**/*.png
+# Excepto algunos importantes para la documentación
+!data/visualizations/dashboard_climatico_real.png
+!data/visualizations/modulo_4/comparacion_matplotlib_vs_seaborn.png
+!data/visualizations/modulo_4/precipitacion_matplotlib_vs_seaborn.png
