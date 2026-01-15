@@ -22,7 +22,7 @@ Repositorio estructurado para el aprendizaje práctico de ciencia de datos, desd
 | **2** | NumPy para Computación Numérica | `01_intro_numpy.py`<br>`02_arrays_multidimencionales.py` | ✅ |
 | **3** | Pandas para Análisis de Datos | `01_introduccion_pandas.py` | ✅ |
 | **4** | Visualización con Matplotlib & Seaborn | `01_introduccion_matplotlib.py`<br>`02_visualizacion_avanzada.py` | ✅ |
-| **5** | Análisis Estadístico Avanzado | `01_estadistica_descriptiva_avanzada.py` | ✅ |
+| **5** | Análisis Estadístico Avanzado | `01_estadistica_descriptiva_avanzada.py<br/>02_pruebas_hipotesis.py` | ✅ |
 
 ### 🚧 **Módulos Pendientes**
 - **Módulo 5:** Análisis Estadístico Avanzado (en Desarrollo)
@@ -43,7 +43,7 @@ ciencia_datos_313/
 │   │   ├── 01_introduccion_matplotlib.py
 │   │   └── 02_visualizacion_avanzada.py
 │   ├── modulo_5/           # Análisis Estadístico Avanzado
-│   │   ├── 01_estadistica_descriptiva_avanzada.py
+│   │   ├── 01_estadistica_descriptiva_avanzada.py<br/>02_pruebas_hipotesis.py
 │   ├── ejercicios/         # Prácticas adicionales
 │   └── proyectos/          # Proyectos integradores
 ├── utils/                  # ✨ NUEVO: Utilidades personalizadas
@@ -102,12 +102,53 @@ ciencia_datos_313/
 
 ### 🎯 Objetivos del Módulo:
 - Dominar estadística descriptiva avanzada para ciencia de datos
+- Aprender pruebas de hipótesis paramétricas y no paramétricas
+- Realizar análisis inferencial completo con intervalos de confianza y tamaño de efecto
+- Crear análisis estadísticos profesionales con reportes transparentes
+
+### 📊 Contenido Actual:
+- **`01_estadistica_descriptiva_avanzada.py`**: Análisis descriptivo completo de datos climáticos españoles
+  - Medidas de tendencia central, dispersión y forma (asimetría, curtosis)
+  - Percentiles, cuartiles y detección de outliers
+  - Visualizaciones: histogramas con KDE, boxplots comparativos
+  
+- **`02_pruebas_hipotesis.py`**: Pruebas estadísticas inferenciales avanzadas
+  - Prueba t de Student con intervalos de confianza y tamaño de efecto (Cohen's d)
+  - Verificación de supuestos: Levene (homocedasticidad), Shapiro-Wilk (normalidad)
+  - Pruebas no paramétricas: Mann-Whitney U, Kruskal-Wallis
+  - Pruebas de bondad de ajuste: Kolmogorov-Smirnov
+  - Protocolo completo de análisis inferencial en 5 pasos
+  - Guía práctica para selección de pruebas y reporte transparente
+
+### 🔧 Tecnologías Aplicadas:
+- **Pandas & NumPy**: Cálculos estadísticos avanzados y manipulación de datos
+- **SciPy**: Funciones estadísticas especializadas (ttest, mannwhitneyu, kruskal, shapiro)
+- **Seaborn & Matplotlib**: Visualización estadística profesional
+- **Intervalos de Confianza**: Estimación de precisión con método de Welch-Satterthwaite
+- **Tamaños de Efecto**: Cohen's d (paramétrico) y r de Rosenthal (no paramétrico)
+
+### 📈 Próximos Pasos en el Módulo:
+1. **`03_correlacion_regresion.py`**: Análisis de relaciones entre variables
+2. **`04_distribuciones_probabilidad.py`**: Modelado con distribuciones teóricas
+3. **`05_series_temporales.py`**: Análisis de tendencias y patrones temporales
+
+### 🧠 Conceptos Clave Aprendidos:
+- Diferenciación entre significación estadística y relevancia práctica
+- Importancia de verificar supuestos antes de aplicar pruebas paramétricas
+- Ventajas y limitaciones del p-valor como medida de evidencia
+- Cálculo e interpretación de intervalos de confianza para diferencias
+- Selección apropiada entre métodos paramétricos y no paramétricos
+- Reporte integral estilo APA con tamaño de efecto y precisión
+
+
+## 🎯 Objetivos del Módulo:
+- Dominar estadística descriptiva avanzada para ciencia de datos
 - Aprender a calcular e interpretar medidas de tendencia central, dispersión y forma
 - Realizar análisis exploratorio de datos (EDA) profesional
 - Crear visualizaciones estadísticas avanzadas con Seaborn
 
 ### 📊 Contenido Actual:
-- **`01_estadistica_descriptiva_avanzada.py`**: Análisis completo de datos climáticos españoles
+- **`01_estadistica_descriptiva_avanzada.py<br/>02_pruebas_hipotesis.py`**: Análisis completo de datos climáticos españoles
   - Medidas de tendencia central (media, mediana, moda)
   - Medidas de dispersión (varianza, desviación estándar, coeficiente de variación)
   - Medidas de forma (asimetría, curtosis)
