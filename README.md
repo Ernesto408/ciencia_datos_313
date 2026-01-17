@@ -37,61 +37,64 @@ Lección | Tema | Estado | Avance
 * **Módulo 8:** Proyecto Integrador
 
 ## 🏗️ **Estructura Real del Proyecto (Actualizada)**
+
+```bash
 ciencia_datos_313/
 ├── data/
-│ ├── raw/Clima_Barcelona/ # 📂 Datos fuente originales (JSON AEMET)
-│ │ ├── barcelona_est_0076_2020.json
-│ │ ├── barcelona_est_0076_2021.json
-│ │ ├── barcelona_est_0076_2022.json
-│ │ ├── barcelona_est_0076_2023.json
-│ │ ├── barcelona_est_0076_2024.json
-│ │ ├── barcelona_est_0076_2025.json
-│ │ └── metadatos_est_0076_2020.json
-│ ├── processed/ # 💾 Datos procesados
-│ │ ├── barcelona_clima_limpio.csv
-│ │ ├── datos_barcelona_procesados.csv
-│ │ └── datos_markov_preparados.csv
-│ └── visualizations/
-│ └── modulo_5/
-│ ├── procesos_estocasticos/ # 📊 Gráficos nuevos de Markov
-│ ├── proceso_bernoulli_barcelona.png
-│ ├── boxplots_por_ciudad.png
-│ ├── comparacion_pearson_spearman.png
-│ ├── correlacion_parcial_vs_simple.png
-│ ├── diagnostico_modelo_multiple.png
-│ ├── distribuciones_temperatura_Madrid.png
-│ ├── histogramas_distribucion.png
-│ ├── mapa_calor_correlaciones.png
-│ ├── regresion_multiple_resultados.png
-│ ├── regresion_simple_humedad_temp.png
-│ ├── ajuste_normal.png
-│ ├── comparacion_distribuciones.png
-│ ├── dashboard_climatico_real.png
-│ ├── evaluacion_ajuste.png
-│ ├── histogramas_iniciales.png
-│ └── precipitacion_gamma.png
-├── env313/ # 🐍 Entorno virtual Python 3.13
+│   ├── raw/Clima_Barcelona/               # 📂 Datos fuente originales (JSON AEMET)
+│   │   ├── barcelona_est_0076_2020.json
+│   │   ├── barcelona_est_0076_2021.json
+│   │   ├── barcelona_est_0076_2022.json
+│   │   ├── barcelona_est_0076_2023.json
+│   │   ├── barcelona_est_0076_2024.json
+│   │   ├── barcelona_est_0076_2025.json
+│   │   └── metadatos_est_0076_2020.json
+│   ├── processed/                         # 💾 Datos procesados
+│   │   ├── barcelona_clima_limpio.csv
+│   │   ├── datos_barcelona_procesados.csv
+│   │   └── datos_markov_preparados.csv
+│   └── visualizations/                    # 📊 Visualizaciones generadas
+│       └── modulo_5/
+│           ├── procesos_estocasticos/     # Gráficos de procesos estocásticos
+│           ├── proceso_bernoulli_barcelona.png
+│           ├── boxplots_por_ciudad.png
+│           ├── comparacion_pearson_spearman.png
+│           ├── correlacion_parcial_vs_simple.png
+│           ├── diagnostico_modelo_multiple.png
+│           ├── distribuciones_temperatura_Madrid.png
+│           ├── histogramas_distribucion.png
+│           ├── mapa_calor_correlaciones.png
+│           ├── regresion_multiple_resultados.png
+│           ├── regresion_simple_humedad_temp.png
+│           ├── ajuste_normal.png
+│           ├── comparacion_distribuciones.png
+│           ├── dashboard_climatico_real.png
+│           ├── evaluacion_ajuste.png
+│           ├── histogramas_iniciales.png
+│           └── precipitacion_gamma.png
+├── env313/                                # 🐍 Entorno virtual Python 3.13
 ├── scripts/
-│ ├── modulo_5/
-│ │ ├── procesos_estocasticos/ # ✅ NUEVA CARPETA CON LECCIONES
-│ │ │ ├── 01_proceso_bernoulli.py # ✅ Lección 5.5
-│ │ │ └── 02_proceso_markov.py # ✅ Lección 5.6
-│ │ ├── 01_estadistica_descriptiva_avanzada.py
-│ │ ├── 02_pruebas_hipotesis.py
-│ │ ├── 03_correlacion_regresion.py
-│ │ └── 04_distribuciones_probabilidad.py
-│ ├── modulo_4/
-│ ├── modulo_3/
-│ ├── modulo_2/
-│ └── modulo_1/
-├── utils/ # 🔧 Utilidades compartidas
-│ ├── data_loader.py # ✅ Cargador de datos unificado
-│ ├── emoji_helper.py
-│ ├── format_utils.py
-│ └── init.py
+│   ├── modulo_5/
+│   │   ├── procesos_estocasticos/         # ✅ NUEVA CARPETA CON LECCIONES
+│   │   │   ├── 01_proceso_bernoulli.py    # ✅ Lección 5.5
+│   │   │   └── 02_proceso_markov.py       # ✅ Lección 5.6
+│   │   ├── 01_estadistica_descriptiva_avanzada.py
+│   │   ├── 02_pruebas_hipotesis.py
+│   │   ├── 03_correlacion_regresion.py
+│   │   └── 04_distribuciones_probabilidad.py
+│   ├── modulo_4/
+│   ├── modulo_3/
+│   ├── modulo_2/
+│   └── modulo_1/
+├── utils/                                 # 🔧 Utilidades compartidas
+│   ├── data_loader.py                     # ✅ Cargador de datos unificado
+│   ├── emoji_helper.py
+│   ├── format_utils.py
+│   └── __init__.py
 ├── requirements.txt
-├── README.md # Este archivo
+├── README.md                              # Este archivo
 └── README_backup.md
+```
 
 
 ## 📐 **Módulo 5: Análisis Estadístico Avanzado - Progreso Actual**
