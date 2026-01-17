@@ -5,6 +5,28 @@
 **📅 Última actualización:** Enero 2026  
 **🏷️ Estado:** Módulo 5 en progreso (6/8 lecciones completadas)
 
+## 📋 **ATRIBUCIÓN Y LICENCIA DE DATOS**
+
+### **Fuente de Datos Climáticos:**
+Los datos climáticos utilizados en este proyecto provienen de la **Agencia Estatal de Meteorología (AEMET)** de España, obtenidos a través de su portal de datos abiertos.
+
+- **Organización:** Agencia Estatal de Meteorología (AEMET), España
+- **Portal de Datos:** [opendata.aemet.es](https://opendata.aemet.es/)
+- **Estación:** 0076 - Barcelona (Observatorio Fabra)
+- **Período:** Enero 2020 - Diciembre 2025
+- **Licencia:** [Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es)
+
+### **Condiciones de uso:** 
+  - ✅ Se permite uso comercial
+  - ✅ Se permite modificación
+  - ✅ Se requiere atribución
+  - ❌ Sin restricciones adicionales
+
+### **Atribución Requerida:**
+
+Datos climáticos proporcionados por la Agencia Estatal de Meteorología (AEMET) de España.
+Fuente: `https://opendata.aemet.es/` - Licencia Creative Commons Reconocimiento 4.0 Internacional.
+
 ## 📊 Progreso del Curso
 
 ### ✅ **Módulos Completados**
